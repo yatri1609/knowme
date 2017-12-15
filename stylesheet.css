@@ -59,3 +59,18 @@ article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summ
 .cell-row:before,.cell-row:after,.clear:after,.clear:before,.bar:before,.bar:after{content:"";display:table;clear:both}
 
 .row-padding>.third,.row-padding>.twothird{padding:0 8px}
+
+. bar{width:100%;overflow:hidden}. center . bar{display:inline-block;width:auto}
+. bar . bar-item{padding:8px 16px;float:left;width:auto;border:none;outline:none;display:block}
+. bar . dropdown-hover,. bar . dropdown-click{position:static;float:left}
+. bar . button{white-space:normal}
+. bar-block . bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;outline:none;white-space:normal;float:none}
+. bar-block. center . bar-item{text-align:center}. block{display:block;width:100%}
+
+. bar:before,. bar:after{content:"";display:table;clear:both}
+.wide{letter-spacing:2px}
+.top,.bottom{position:fixed;width:100%;z-index:1}.top{top:0}
+.right-align{text-align:right!important}
+
+.right{float:right!important}
+.hide-small{display:none!important}
